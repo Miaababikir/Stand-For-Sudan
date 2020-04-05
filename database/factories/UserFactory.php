@@ -26,3 +26,10 @@ $factory->define(User::class, function (Faker $faker) {
         'remember_token' => Str::random(10),
     ];
 });
+
+$factory->define(\App\Donation::class, function (Faker $faker) {
+    return [
+        'transaction_id' => 0,
+        'total_amount' => 0
+    ];
+});
