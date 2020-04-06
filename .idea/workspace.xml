@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5d2031b-bc32-4d19-be68-d1c1d1a2efbc" name="Default Changelist" comment="" />
+    <list default="true" id="c5d2031b-bc32-4d19-be68-d1c1d1a2efbc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Jobs/GetDonationDataJob.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Jobs/GetDonationDataJob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -137,6 +142,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -153,7 +163,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586093391653</updated>
-      <workItem from="1586093394750" duration="4711000" />
+      <workItem from="1586093394750" duration="7688000" />
+      <workItem from="1586113184567" duration="2705000" />
+      <workItem from="1586116878632" duration="46000" />
     </task>
     <servers />
   </component>
@@ -165,9 +177,9 @@
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
     <state x="697" y="314" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.28.1920.1052@0.28.1920.1052" timestamp="1586095779438" />
-    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1586097050036">
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1586098664265">
       <screen x="0" y="28" width="1920" height="1052" />
     </state>
-    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1586097050036" />
+    <state x="623" y="261" width="672" height="678" key="search.everywhere.popup/0.28.1920.1052@0.28.1920.1052" timestamp="1586098664265" />
   </component>
 </project>

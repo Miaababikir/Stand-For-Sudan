@@ -25,8 +25,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
-        $schedule->job(new GetDonationDataJob())->timezone('Africa/Khartoum')->everyMinute();
+        $schedule->job(new GetDonationDataJob())->everyMinute();
     }
 
     /**

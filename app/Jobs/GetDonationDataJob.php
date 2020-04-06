@@ -9,6 +9,7 @@ use Illuminate\Foundation\Bus\Dispatchable;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Log;
 
 class GetDonationDataJob implements ShouldQueue
 {
@@ -39,5 +40,6 @@ class GetDonationDataJob implements ShouldQueue
                 'total_amount' => $response['totalAmount']
             ]);
         }
+
     }
 }
