@@ -29,7 +29,7 @@ $factory->define(User::class, function (Faker $faker) {
 
 $factory->define(\App\Donation::class, function (Faker $faker) {
     return [
-        'transaction_id' => 0,
+        'transaction_id' => $faker->randomNumber(6),
         'total_amount' => 0
     ];
 });

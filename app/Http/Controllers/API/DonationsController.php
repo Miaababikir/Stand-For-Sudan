@@ -13,13 +13,11 @@ class DonationsController extends Controller
     {
         $donations = Donation::latest()->take(10)->get();
         $latest = $donations->first();
-        $donations_total = $latest->total_amount;
-        $last_donation = $latest->total_amount - Donation::find($latest->id - 1)->total_amount;
 
         return response()->json([
             'donations' => $donations,
-            'donations_total' => $donations_total,
-            'last_donation' => $last_donation,
+            'donations_total' => $latest->total_amount,
+            'last_donation' => $latest->total_amount - $donations->find($latest->id - 1)->total_amount,
             'today_total_donators' => Donation::whereDate('created_at', Carbon::today())->count(),
         ]);
     }
