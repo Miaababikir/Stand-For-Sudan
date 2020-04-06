@@ -23,7 +23,7 @@ class DonationsTest extends TestCase
 
         $response = $this->get('/api/donations')->assertSuccessful();
 
-        $this->assertEquals($donations->count(), count($response->json()['data']['donations']));
+        $this->assertEquals($donations->count(), count($response->json()['donations']));
     }
 
 }
