@@ -13,9 +13,4 @@ class Donation extends Model
     {
         return Carbon::parse($value)->diffForHumans();
     }
-
-    public function getTotalAmountAttribute($value)
-    {
-        return number_format($value, 0, ',', ',');
-    }
 }
