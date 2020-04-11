@@ -17,6 +17,7 @@ class DonationsController extends Controller
         return response()->json([
             'donations' => $donations,
             'donations_total' => $latest->total_amount,
+            'total_donators' => $latest->transaction_id,
             'last_donation' => $latest->total_amount - $donations->find($latest->id - 1)->total_amount,
             'today_total_donators' => Donation::whereDate('created_at', Carbon::today())->count(),
         ]);
